@@ -11,7 +11,8 @@ export enum GodzillaItemTypes {
   search = "search",
   dropdown = "dropdown",
   textarea = "textarea",
-  heading = "heading"
+  heading = "heading",
+  upload = "upload",
 }
 
 export enum GodzillaValueSource {
