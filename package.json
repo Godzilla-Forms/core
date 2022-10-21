@@ -1,6 +1,6 @@
 {
   "name": "@godzilla-forms/core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Godzilla Forms core library",
   "types": "dist/index.d.ts",
   "private": false,
@@ -27,13 +27,13 @@
   "author": "Abdullah Alhazmy",
   "email": "me@alhazmy13.net",
   "license": "MIT",
-  "homepage": "https://github.com/alhazmy13/godzilla#readme",
+  "homepage": "https://github.com/Godzilla-Forms/core#readme",
   "bugs": {
-    "url": "https://github.com/alhazmy13/godzilla/issues"
+    "url": "https://github.com/Godzilla-Forms/core/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alhazmy13/godzilla.git"
+    "url": "https://github.com/Godzilla-Forms/core.git"
   },
   "devDependencies": {
     "prettier": "^2.7.1",
