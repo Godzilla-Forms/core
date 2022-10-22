@@ -1,4 +1,4 @@
-import {GodzillaConditions, GodzillaItemTypes, GodzillaValueSource} from "./godzilla.enum";
+import { GodzillaConditions, GodzillaItemTypes, GodzillaValueSource } from './godzilla.enum';
 
 export interface GodzillaFormCombinedValues {
   label: string;
@@ -10,7 +10,7 @@ export interface GodzillaFormControls {
   label?: string;
   placeholder?: string;
   subheader?: string;
-  value: GodzillaFormControlValues
+  value: GodzillaFormControlValues;
   type: GodzillaItemTypes;
   options?: GodzillaFormControlOptions;
   style?: GodzillaFormControlStyle;
@@ -33,7 +33,6 @@ export interface GodzillaFormControlValues {
   valueDataService?: string;
 }
 
-
 export interface GodzillaFormControlOptions {
   hidden?: boolean;
   disabled?: boolean;
@@ -51,10 +50,9 @@ export interface GodzillaFormControlStyle {
   customCss?: string;
 }
 
-export let defaultStyleValues: GodzillaFormControlStyle =
-  {
-    col: 12
-  }
+export const defaultStyleValues: GodzillaFormControlStyle = {
+  col: 12,
+};
 
 export interface GodzillaFormControlValidator {
   pattern?: string;
@@ -73,4 +71,3 @@ export interface GodzillaFormControlErrors {
   minLength?: string;
   maxLength?: string;
 }
-

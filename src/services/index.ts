@@ -1,4 +1,4 @@
-import {GodzillaFormCombinedValues} from "../model";
+import { GodzillaFormCombinedValues } from '../model';
 
 export abstract class GodzillaService {
 }
