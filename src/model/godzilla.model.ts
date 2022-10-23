@@ -13,6 +13,7 @@ export interface GodzillaFormControls {
   value: GodzillaFormControlValues;
   type: GodzillaItemTypes;
   options?: GodzillaFormControlOptions;
+  file?: GodzillaFileControl;
   style?: GodzillaFormControlStyle;
   validators?: GodzillaFormControlValidator;
   errors?: GodzillaFormControlErrors;
@@ -23,6 +24,10 @@ export interface GodzillaFormControlFlow {
   basedOn?: string;
   value?: string;
   condition?: GodzillaConditions;
+}
+
+export interface GodzillaFileControl {
+  multiple: boolean;
 }
 
 export interface GodzillaFormControlValues {
@@ -61,6 +66,8 @@ export interface GodzillaFormControlValidator {
   max?: number;
   minLength?: number;
   maxLength?: number;
+  maxSize?: number;
+  allowedTypes?: string;
 }
 
 export interface GodzillaFormControlErrors {
