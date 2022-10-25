@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/Godzilla-Forms/core/issues"><img alt="Github issues" src="https://img.shields.io/github/issues-raw/Godzilla-Forms/core?style=flat-square"></a>
-  <a href="https://www.npmjs.com/package/@godzilla/core"><img alt="npm" src="https://img.shields.io/npm/v/@godzilla-forms/parser?label=npm%2Fparser&style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/@godzilla-forms/core"><img alt="npm" src="https://img.shields.io/npm/v/@godzilla-forms/core?label=npm%2Fparser&style=flat-square"></a>
 </p>
 
 <p align="center">Godzilla is built-in ready form elements and templates; just focus on your Business logic and let Godzilla handle the
