@@ -20,6 +20,11 @@ export enum GodzillaValueSource {
   service = 'service',
 }
 
+export enum GodzillaFormType {
+  classic = 'classic',
+  pages = 'pages',
+}
+
 export enum GodzillaConditions {
   equal = 'equal',
   notEqual = 'notEqual',

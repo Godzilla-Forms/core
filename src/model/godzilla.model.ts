@@ -1,8 +1,31 @@
-import { GodzillaConditions, GodzillaItemTypes, GodzillaValueSource } from './godzilla.enum';
+import {
+  GodzillaConditions, GodzillaFormType, GodzillaItemTypes, GodzillaValueSource,
+} from './godzilla.enum';
 
 export interface GodzillaFormCombinedValues {
   label: string;
   value: string;
+}
+
+export interface GodzillaForm {
+  id?: string;
+  title?: string;
+  style: GodzillaFormStyle;
+  pages: GodzillaFormPage[];
+}
+
+export interface GodzillaFormStyle {
+  type: GodzillaFormType;
+  showSubmitButton?: boolean;
+  submitLabel?: string;
+  nextLabel?: string;
+  previousLabel?: string;
+}
+
+export interface GodzillaFormPage {
+  id: string;
+  title: string;
+  controls: GodzillaFormControls[];
 }
 
 export interface GodzillaFormControls {
@@ -35,7 +58,6 @@ export interface GodzillaFormControlValues {
   valueOptions?: GodzillaFormCombinedValues[];
   serviceName?: string;
   valueSource?: GodzillaValueSource;
-  valueDataService?: string;
 }
 
 export interface GodzillaFormControlOptions {
