@@ -13,6 +13,7 @@ Thumbs.db
 # TypeScript source files, apart generated type definitions
 *.ts
 !*.d.ts
+.idea/
 
 # Other generated files
 *.spec.*
