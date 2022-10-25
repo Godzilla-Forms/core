@@ -1,6 +1,6 @@
 {
   "name": "@godzilla-forms/core",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Godzilla Forms core library",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
