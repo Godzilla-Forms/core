@@ -18,7 +18,7 @@ export interface GodzillaForm {
 }
 
 export interface GodzillaFormStyle {
-	type: GodzillaFormType;
+	type: GodzillaFormType | string;
 	showSubmitButton?: boolean;
 	submitLabel?: string;
 	nextLabel?: string;
@@ -37,7 +37,7 @@ export interface GodzillaFormControls {
 	placeholder?: string;
 	subheader?: string;
 	value: GodzillaFormControlValues;
-	type: GodzillaItemTypes;
+	type: GodzillaItemTypes | string;
 	options?: GodzillaFormControlOptions;
 	file?: GodzillaFileControl;
 	style?: GodzillaFormControlStyle;
@@ -60,7 +60,7 @@ export interface GodzillaFormControlValues {
 	defaultValue: string | boolean;
 	valueOptions?: GodzillaFormCombinedValues[];
 	serviceName?: string;
-	valueSource?: GodzillaValueSource;
+	valueSource?: GodzillaValueSource | string;
 }
 
 export interface GodzillaFormControlOptions {
